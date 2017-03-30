@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.name         = "FGSettingTableView"
   s.version      = "1.0.1"
   s.ios.deployment_target = '7.0'
-  s.license      = { :type => "MIT", :file=>"LICENSE"}
+  s.license= { :type => "MIT", :file => "LICENSE" }  
   s.author       = {"farmkuo"=>"1430935105@qq.com"}
-  s.summary      = "A short description of FGSettingTableView."
+  s.summary      = "FGSettingTableView."
   s.source       = { :git => "https://github.com/gph1991/FGSettingTableView.git", :tag => s.version }
   s.source_files  = "FGSettingTableView/*.{h,m}"
   # This description is used to generate tags and improve search results.
@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+		   just for me,yes ,this is true.
                    DESC
-
-  s.homepage     = "http://EXAMPLE/FGSettingTableView"
+  s.homepage     = "https://github.com/gph1991/FGSettingTableView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
