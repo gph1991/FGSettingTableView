@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FGSettingTableView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.ios.deployment_target = '7.0'
-  s.license      = {:type =>"MIT",:file="LICENSE"}
+  s.license      = { :type => "MIT", :file=>"LICENSE"}
   s.author       = {"farmkuo"=>"1430935105@qq.com"}
   s.summary      = "A short description of FGSettingTableView."
-  s.source       = {:git=>https://github.com/gph1991/FGSettingTableView.git",:tag =>s.version}
-  s.sources      = "{FGSettingTableView/*.{h,m}}"
+  s.source       = { :git => "https://github.com/gph1991/FGSettingTableView.git", :tag => s.version }
+  s.source_files  = "FGSettingTableView/*.{h,m}"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
